@@ -1,0 +1,41 @@
+.card
+{
+    margin: 20px;
+    border: solid orangered;
+    background-color: rgb(105, 208, 248);
+
+    /* height: 250px; */
+}
+.logo
+{
+    margin: 2px;
+    size: 10%;
+    width: 25px;
+}
+#img
+{
+    border-collapse: separate; 
+    border-radius: 130px;
+    /* border-bottom-right-radius: 40px; */
+    border: solid orange ;
+    /* border-radius: ; */
+    margin: 10px;
+    width: 80%;
+    height: 200px;
+}
+.card-title
+{
+    color: red;
+}
+#imgcls{
+    /* border: solid black; */
+    width: 100%;
+}
+#cardtext
+{
+    align-items: center;
+    text-align: left;
+    margin-left: 20px;
+    width: 230px;
+    /* border: solid black; */
+}

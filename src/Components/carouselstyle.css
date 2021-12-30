@@ -1,0 +1,9 @@
+.text
+{
+    color: black;
+}
+#carouselExampleCaptions
+{
+    margin-left: 55px;
+    width: 90%;
+}

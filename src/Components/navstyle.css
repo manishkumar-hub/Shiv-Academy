@@ -1,0 +1,76 @@
+
+#schoolheader
+{
+    margin-top: 4px;
+    font-size: 40px;
+    height: 15px;
+    color: orange; 
+    /* font-style: inherit; */
+    margin-left: 0px;
+    /* width: 40px ; */
+    /* border: solid brown; */
+}
+#alumniheader
+{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 1px;
+    margin-right: 130px;
+}
+.heading
+{
+    /* margin: 10px; */
+    margin-left: 1px;
+}
+#navrow 
+{
+    /* margin-left: 20px; */
+    /* padding-left: 220px; */
+    /* border: solid black; */
+    margin-top: -1vw;
+    margin-left: -1.5vw;
+    margin-right: -2vw;
+    color: white;
+    width: 1374px;
+    background-color: red;
+    /* background-color: red; */
+}
+
+#contfl
+{
+    /* border: solid blue; */
+    /* width: 25000px; */
+    position: relative;
+    width: 100vw;
+    margin-left: -1vw;
+    margin-right: -1vw;
+    /* vw: 100%; */
+}
+#td1
+{
+    /* display: ; */
+    border: rgb(92, 29, 76);
+    margin-bottom: 10px;
+    width: 100%;
+    /* background-color: red; */
+}
+.trnav 
+{
+    /* border: solid blue; */
+    width: 100%;
+    /* float: left; */
+    /* display: block; */
+    /* color: white; */
+}
+.navbutn
+{
+    color: white;
+    margin-left: 40px;
+}
+.logo-image
+{
+    /* margin-left: 10px; */
+    margin-top: -2vw;
+    size: 30px;
+    height: 85px;
+}
