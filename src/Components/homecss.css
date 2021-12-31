@@ -1,0 +1,59 @@
+.list
+{
+    margin-left: 5%;
+    text-align: left;
+}
+#presidentImage
+{
+    size: 20%;
+
+    margin: 20px;
+    margin-top: 0px;
+    height: 150px;
+    margin-left: 5%;
+    /* margin-right: 5%; */
+    border-radius: 50px;
+    /* display:inline-flex ; */
+    float: left;
+}
+#secretary-Image
+{
+    size: 20%;
+
+    margin: 20px;
+    margin-top: 0px;
+    height: 150px;
+    margin-left: 5%;
+    /* margin-right: 5%; */
+    border-radius: 50px;
+    /* display:inline-flex ; */
+    float: left;
+}
+#vice-presidentImage
+{
+    /* size: 28%; */
+    margin: 20px;
+    margin-top: 0px;
+    height: 150px;
+    margin-left: 5%;
+    border-radius: 50px;
+    /* display:inline-flex ; */
+    float: right;
+}
+#ptext
+{
+    text-align: justify;
+    margin-bottom: 5%;
+    margin-right: 5%;
+}
+#vptext
+{
+    text-align: justify;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.president
+{
+    align-items: left;
+}

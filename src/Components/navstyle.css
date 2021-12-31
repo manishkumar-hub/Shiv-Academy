@@ -29,9 +29,9 @@
     /* border: solid black; */
     margin-top: -1vw;
     margin-left: -1.5vw;
-    margin-right: -2vw;
+    /* margin-right: -3vw; */
     color: white;
-    width: 1374px;
+    width: 120%;
     background-color: red;
     /* background-color: red; */
 }

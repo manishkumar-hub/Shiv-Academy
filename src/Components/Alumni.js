@@ -8,6 +8,7 @@ class Alumni extends React.Component {
                 <Alumnicard/>
                 <Alumnicard/>
             </div> */}
+            <h1>OUR ALUMNI</h1>
             <div class="container">
                 <div class="row">
                     <div class="col">

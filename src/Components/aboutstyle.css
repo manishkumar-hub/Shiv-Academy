@@ -1,0 +1,18 @@
+#schoolimg
+{
+    position: relative;
+    
+}
+.about
+{
+    background-image: url('C:\Users\manish\Desktop\Shiv Academy\shivacademy\src\Components\IMG20211219131720.jpg') ;
+    opacity: 0.7;
+}
+.aboutPara
+{
+    margin: 10%;
+    margin-bottom: 0%;
+    color: darkred;
+    size: 20px;
+    font-size: large;
+}

@@ -1,0 +1,40 @@
+.footerTop
+{
+    text-align: left;
+    align-items: left;
+    background-color: gray;
+    margin-bottom: -0.5vw;
+    color: blue;
+}
+.footerBottom
+{
+    margin-top: -0.75vw;
+    align-items: left;
+    background-color: rgb(61, 61, 243);
+    /* text-align: left; */
+    margin-bottom: -1vw;
+}
+.linktext
+{
+     color: white;
+     margin-top: 20px;
+     margin-left: 2px;
+     margin-right: 25px;
+     margin-bottom: 20px;
+     padding-bottom: 20px;
+}
+#schoolname , #schooladd
+{
+    color: white;
+}
+.uptext
+{
+    color: white;
+    text-decoration: wavy;
+}
+.text
+{
+    /* padding-top: px; */
+    margin-left: 5% ;
+    color: whitesmoke;
+}
