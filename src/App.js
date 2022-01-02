@@ -1,5 +1,6 @@
 import './App.css';
 import About from './Components/About';
+import Aim from './Components/Aim';
 import Alumni from './Components/Alumni';
 import Alumnicard from './Components/Alumnicard';
 import Directmessage from './Components/DirectMesage';
@@ -12,6 +13,7 @@ function App() {
     <div className="App">
       <Navbar/>
        <Homepage/>
+       <Aim/>
       <About/>
       <Directmessage/>
       <Alumni/>

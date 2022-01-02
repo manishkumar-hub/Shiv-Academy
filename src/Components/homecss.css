@@ -1,12 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 .list
 {
     margin-left: 5%;
     text-align: left;
 }
+.vis-para
+{
+    font-size: large;
+    margin: 5%;
+}
 #presidentImage
 {
     size: 20%;
-
+    border: solid orangered;
     margin: 20px;
     margin-top: 0px;
     height: 150px;
@@ -19,7 +26,7 @@
 #secretary-Image
 {
     size: 20%;
-
+    border: solid orangered;
     margin: 20px;
     margin-top: 0px;
     height: 150px;
@@ -29,10 +36,27 @@
     /* display:inline-flex ; */
     float: left;
 }
+.topic-header
+{
+    /* font-family: 'Pushster', cursive; */
+    /* font-family: 'Roboto Slab', serif; */
+    font-family: 'Pushster', cursive;
+    color: rgb(15, 3, 122);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.sub-header
+{
+    color: rgb(41, 146, 9);
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
 #vice-presidentImage
 {
     /* size: 28%; */
     margin: 20px;
+    border: solid orangered;
+
     margin-top: 0px;
     height: 150px;
     margin-left: 5%;
@@ -51,9 +75,44 @@
     text-align: justify;
     margin-bottom: 5%;
     margin-right: 5%;
+    /* align-items: center; */
     margin-left: 5%;
+}
+.post-text
+{
+    font-family: 'Playfair Display', serif;
+    margin-left: 35%;
 }
 .president
 {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: ridge;
+    border-width: 5px;
+    border-radius: 50px;
+    align-items: left;
+}
+.vice-president
+{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: ridge;
+    border-width: 5px;
+    border-radius: 50px;
+    align-items: left;
+}
+.secretary
+{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: ridge;
+    border-width: 5px;
+    border-radius: 50px;
     align-items: left;
 }

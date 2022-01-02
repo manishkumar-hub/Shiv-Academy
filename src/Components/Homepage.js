@@ -2,40 +2,52 @@ import React, { Component } from 'react'
 import Carousel from './Carousel';
 import './homecss.css'
 import manish from './manish.jpg'
+import secretary from './secretary.jpeg' 
 class Homepage extends React.Component {
     render() {
         return <div>
             <Carousel />
             <div className='aimbox'>
-                <h1>Our Aim </h1>
-                <ul className='list'>
-                    <li>
-                        <h5>ahdajdhfajd</h5>
-                    </li>
-                    <li>
-                        <h5>
-                            ahdjahjdhdja
-                        </h5>
-                    </li>
-                </ul>
-                <h1>ABOUT THE ASSOCIATION </h1>
+                <h1 className='topic-header' >VISION & MISSION </h1>
+                <p className='vis-para' >
+                The main Vision and Mission of the Association is to “Giving Back” to Alma Mater. Our aim is to bring all alumnus into one single network and help them connect with one another and with the Institute to join hands with it to foster and enhance its’ academic pursuit of knowledge.
+                    </p> 
+                    <p className="vis-para">
+                    Association aims to link all school alumnus together to develop synergistic plans to help and support all  students, alumni, JNV  and society as a whole to achieve its vision, and to enable our alumnus add value to the society
+                    </p>
+                <h1 className='topic-header'>ABOUT THE ASSOCIATION </h1>
                 <div className="president">
-                    <h2 >PRESIDENT </h2>
+                    <h2 className='sub-header' >PRESIDENT </h2>
                     <img id='presidentImage' src={manish} alt="" />
-                    <p id="ptext" >Contribute, Vote  Earn with public Grepper answers
-                        Our goal is to provide you with the right answer for the specific coding spot you are in, we do this by using coder feedback from other folks who ran into your same coding problem. By contributing answers not only will you help other coders out, you can also earn by receiving donations from other thankful coders.    Our goal is to provide you with the right answer for the specific coding spot you are in, we do this by using coder feedback from other folks who ran into your same coding problem. By contributing answers not only will you help other coders out, you can also earn by receiving donations from other thankful coders. jg </p>
+                    <p id="ptext" >
+                    <br/>
+                        <h4 className='post-text'>ROBIN  </h4>
+                        <br/>
+                        <br/>
+                        <br/>
+                    </p>
                 </div>
                 <div className="vice-president">
-                    <h2>VICE-PRESIDENT</h2>
+                    <h2 className='sub-header'>VICE-PRESIDENT</h2>
                     <img id='vice-presidentImage' src={manish} alt="" />
-                    <p id="vptext" >Contribute, Vote  Earn with public Grepper answers
-                        Our goal is to provide you with the right answer for the specific coding spot you are in, we do this by using coder feedback from other folks who ran into your same coding problem. By contributing answers not only will you help other coders out, you can also earn by receiving donations from other thankful coders.    Our goal is to provide you with the right answer for the specific coding spot you are in, we do this by using coder feedback from other folks who ran into your same coding problem. By contributing answers not only will you help other coders out, you can also earn by receiving donations from other thankful coders. fjio</p>
+                    <p id="vptext" >
+                    <br/>
+                        <h4 className='post-text'>UTKARSH </h4>
+                        <br/>
+                        <br/>
+                        <br/>
+                    </p>
                 </div>
                 <div className="secretary">
-                    <h2> SECRETARY </h2>
-                    <img id='secretary-Image' src={manish} alt="" />
-                    <p id="vptext" >Contribute, Vote  Earn with public Grepper answers
-                        Our goal is to provide you with the right answer for the specific coding spot you are in, we do this by using coder feedback from other folks who ran into your same coding problem. By contributing answers not only will you help other coders out, you can also earn by receiving donations from other thankful coders.    Our goal is to provide you with the right answer for the specific coding spot you are in, we do this by using coder feedback from other folks who ran into your same coding problem. By contributing answers not only will you help other coders out, you can also earn by receiving donations from other thankful coders. fjio</p>
+                    <h2 className='sub-header'> SECRETARY </h2>
+                    <img id='secretary-Image' src={secretary} alt="" />
+                    <p id="vptext" >
+                        <br/>
+                        <h4 className='post-text'>UTKARSH </h4>
+                        <br/>
+                        <br/>
+                        <br/>
+                    </p>
                 </div>
             </div>
         </div>;

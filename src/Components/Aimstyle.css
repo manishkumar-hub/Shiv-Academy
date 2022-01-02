@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+.heading
+{
+    margin: 4%;
+    color: darkblue;
+    font-family: 'Pushster', cursive;
+}
+.list
+{
+    padding: 3%;
+    background-color: rgb(224, 218, 218);
+    border: solid black;
+    border-radius: 20px;
+}

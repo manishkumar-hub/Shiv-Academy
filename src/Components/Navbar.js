@@ -9,14 +9,14 @@ class Navbar extends React.Component {
             {/* </nav> */}
             <nav className="navbar navbar-expand-lg  navbar-light bg-light" id='nav'>
                 <div className="container-fluid" >
-                    <div className="heading container-fluid" id='contfl'>
+                    <div className=" container-fluid" id='contfl'>
                         <table>
                             <tr>
                                 <td>
                                     <img className="logo-image" src={logo} alt="logo" />
                                 </td>
                                 <td>
-                                    <a className="navbar-brand" href="#"><h1 id='schoolheader'>   SHIV  ACADEMY  </h1><h4 id='alumniheader'>Alumni Portal </h4></a>
+                                    <a className="navbar-brand" href="#"><h1 id='schoolheader'>  <b>SHIV ACADEMY</b> </h1><h4 id='alumniheader'>Alumni Portal </h4></a>
 
                                 </td>
                             </tr>
@@ -52,7 +52,10 @@ class Navbar extends React.Component {
                                                 <a className="nav-link disabled"><h5 className='navbutn'>Message From the Director </h5></a>
                                             </li>
                                             <li className="nav-item">
-                                                <a className="nav-link disabled"><h5 className='navbutn'>Alumni's </h5></a>
+                                                <a className="nav-link disabled"><h5 className='navbutn'>Aim & Objectives</h5></a>
+                                            </li>
+                                            <li className="nav-item">
+                                                <a className="nav-link disabled"><h5 className='navbutn'>Alumni </h5></a>
                                             </li>
                                             <li className="nav-item">
                                                 <a className="nav-link disabled"><h5 className='navbutn'>Gallery </h5></a>
