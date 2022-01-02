@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/Shiv-Academy/static/css/main.1626b7ff.css",
-    "main.js": "/Shiv-Academy/static/js/main.782cf8c6.js",
+    "main.css": "/Shiv-Academy/static/css/main.158ffccc.css",
+    "main.js": "/Shiv-Academy/static/js/main.0e0b1ff0.js",
     "static/js/787.0da22ebf.chunk.js": "/Shiv-Academy/static/js/787.0da22ebf.chunk.js",
-    "static/media/IMG20211219131720.jpg": "/Shiv-Academy/static/media/IMG20211219131720.e74468516a5b8f937409.jpg",
     "static/media/IMG20211219131717.jpg": "/Shiv-Academy/static/media/IMG20211219131717.dace2e6652c40e30a064.jpg",
     "static/media/manish.jpg": "/Shiv-Academy/static/media/manish.a42733670d4b79c1d7c7.jpg",
     "static/media/program.jpeg": "/Shiv-Academy/static/media/program.6d290bc78ee35e5b0e2f.jpeg",
+    "static/media/ashwinisingh.jpeg": "/Shiv-Academy/static/media/ashwinisingh.ac7cbd87e52414c60608.jpeg",
     "static/media/linkedin.png": "/Shiv-Academy/static/media/linkedin.b6bbf1136908a55ed672.png",
     "static/media/lamp.jpeg": "/Shiv-Academy/static/media/lamp.2824cd6a6b4837f2eb96.jpeg",
+    "static/media/vikashkumarraj.jpeg": "/Shiv-Academy/static/media/vikashkumarraj.3e642db1b52a9cef096f.jpeg",
+    "static/media/ashishsharma.jpeg": "/Shiv-Academy/static/media/ashishsharma.59eecdb471c4565ea8d8.jpeg",
+    "static/media/secretary.jpeg": "/Shiv-Academy/static/media/secretary.23bcfd7ce7e5db8b93bf.jpeg",
     "static/media/schoollogo.jpeg": "/Shiv-Academy/static/media/schoollogo.68ec3c198e9c5d117e67.jpeg",
     "index.html": "/Shiv-Academy/index.html",
-    "main.1626b7ff.css.map": "/Shiv-Academy/static/css/main.1626b7ff.css.map",
-    "main.782cf8c6.js.map": "/Shiv-Academy/static/js/main.782cf8c6.js.map",
+    "main.158ffccc.css.map": "/Shiv-Academy/static/css/main.158ffccc.css.map",
+    "main.0e0b1ff0.js.map": "/Shiv-Academy/static/js/main.0e0b1ff0.js.map",
     "787.0da22ebf.chunk.js.map": "/Shiv-Academy/static/js/787.0da22ebf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1626b7ff.css",
-    "static/js/main.782cf8c6.js"
+    "static/css/main.158ffccc.css",
+    "static/js/main.0e0b1ff0.js"
   ]
 }
