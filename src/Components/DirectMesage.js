@@ -4,7 +4,7 @@ import './dmessg.css'
 class Directmessage extends React.Component {
     render() { 
         return <div>
-            <h1 className='heading'>
+            <h1 className='heading' id='dheader'>
                 MESSAGE FROM THE DIRECTOR
             </h1>
             <img id='d-image' src={lamp} alt="" />

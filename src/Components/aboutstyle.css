@@ -7,9 +7,9 @@
     border-radius: 30px;  
     float: left;  
 }
-.about
+#aboutheader
 {
-
+    margin-left: 5%;
 }
 .aboutPara
 {

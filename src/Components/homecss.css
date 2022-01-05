@@ -17,6 +17,7 @@
     margin: 20px;
     margin-top: 0px;
     height: 150px;
+    /* height: 32vw; */
     margin-left: 5%;
     /* margin-right: 5%; */
     border-radius: 50px;
@@ -30,12 +31,14 @@
     margin: 20px;
     margin-top: 0px;
     height: 150px;
+    /* height: 32vw; */
     margin-left: 5%;
     /* margin-right: 5%; */
     border-radius: 50px;
     /* display:inline-flex ; */
     float: left;
 }
+
 .topic-header
 {
     /* font-family: 'Pushster', cursive; */
@@ -43,12 +46,16 @@
     font-family: 'Pushster', cursive;
     color: rgb(15, 3, 122);
     margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 4%;
+    margin-left: 5%;
 }
 .sub-header
 {
+    text-align: center;
     color: rgb(41, 146, 9);
     margin-top: 2%;
+    
+    /* margin-left: 1; */
     margin-bottom: 2%;
 }
 #vice-presidentImage
@@ -56,13 +63,20 @@
     /* size: 28%; */
     margin: 20px;
     border: solid orangered;
-
     margin-top: 0px;
+    /* height: 32vw; */
     height: 150px;
     margin-left: 5%;
     border-radius: 50px;
     /* display:inline-flex ; */
-    float: right;
+    float: left;
+}
+@media screen and (max-device-width:480px) {
+    #secretary-Image,#vice-presidentImage ,#presidentImage
+    {
+        margin-bottom: 4px;
+        height: 32vw ;
+    }
 }
 #ptext
 {
@@ -76,7 +90,7 @@
     margin-bottom: 5%;
     margin-right: 5%;
     /* align-items: center; */
-    margin-left: 5%;
+    /* margin-left: 5%; */
 }
 .post-text
 {

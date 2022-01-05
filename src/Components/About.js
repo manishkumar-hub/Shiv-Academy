@@ -6,7 +6,7 @@ import './aboutstyle.css'
 class About extends React.Component {
     render() {
         return <div className='about'>
-            <h1 className='heading' >ABOUT THE SCHOOL</h1>
+            <h1 className='heading' id='aboutheader'>ABOUT THE SCHOOL</h1>
             <p className="aboutPara">
                 <img id='schoolimg' src={school} alt="" />
                 <b> Shiv Academy</b> is one of the largest educational institution of the region for providing education service to students.It provides "a best way to excellence" and supports in everything anytime. It has been doing our best in this industry since 2005 to promote a student in all respects. It have full support of best faculties from the industry as well as we have the best technique of teaching. Teachers are devoted to providing excellent individual counselling on the complete requirements of the student. The teachers /faculties of the organization are highly qualified and well equipped for their respective subjects and are capable of inspiring confidence in the students and to get the best out of them.

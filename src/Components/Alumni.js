@@ -7,12 +7,7 @@ import ashwini from './ashwinisingh.jpeg'
 class Alumni extends React.Component {
     render() {
         return <div>
-            {/* <div className="col md-4">
-             
-             
-             
-            </div> */}
-            <h1 className='heading'>ALUMNI</h1>
+            <h1 className='heading' id='alumhead'>ALUMNI</h1>
             <div class="container">
                 <div class="row">
                     <div class="col">
