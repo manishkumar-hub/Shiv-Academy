@@ -8,8 +8,9 @@
 }
 .footerBottom
 {
-    margin-top: -0.75vw;
-    align-items: left;
+    /* margin-top: -0.75vw; */
+    align-items: center;
+    text-align: center;
     background-color: rgb(61, 61, 243);
     /* text-align: left; */
     margin-bottom: -1vw;
@@ -17,11 +18,11 @@
 .linktext
 {
      color: white;
-     margin-top: 20px;
-     margin-left: 2px;
-     margin-right: 25px;
-     margin-bottom: 20px;
-     padding-bottom: 20px;
+     /* margin-top: 20px; */
+     /* margin-left: 2px; */
+     /* margin-right: 25px; */
+     /* margin-bottom: 20px; */
+     /* padding-bottom: 20px; */
 }
 #schoolname , #schooladd
 {

@@ -30,6 +30,9 @@ class App extends React.Component {
           <Route exact path="/alumn">
              <Alumni/>
           </Route>
+          <Route exact path="/aim">
+             <Aim/>
+          </Route>
 
         </Switch>
         <Footer/>

@@ -6,9 +6,6 @@ import { Routes ,Route } from 'react-router-dom';
 class Navbar extends React.Component {
     render() {
         return <div>
-            {/* <nav className="navbar navbar-expand-lg navbar-light bg-light"> */}
-
-            {/* </nav> */}
             <nav className="navbar navbar-expand-lg  navbar-light bg-light" id='nav'>
                 <div className="container-fluid" >
                     <div className=" container-fluid" id='contfl'>
