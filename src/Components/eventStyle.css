@@ -1,0 +1,28 @@
+.events-box
+{
+  /* padding: 1%; */
+  /* background-color: #9355f1; */
+  background-color: #bbb3c7;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin: 5%;
+}
+#event-header
+{
+  margin-left: 2%;
+  text-align: center;
+  padding: 1%;
+  /* background-color: aqua; */
+}
+.article{
+  
+}
+.scrol
+{
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+  padding: 1%;
+  height: 30vh;
+
+}

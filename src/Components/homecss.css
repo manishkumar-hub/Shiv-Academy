@@ -10,6 +10,11 @@
     font-size: large;
     margin: 5%;
 }
+.colmn
+{
+    height: 40vh;
+    width: 40vw;
+}
 #presidentImage
 {
     size: 20%;

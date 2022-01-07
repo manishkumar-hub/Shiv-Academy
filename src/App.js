@@ -12,6 +12,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import Events from './Components/Events';
 class App extends React.Component {
   render() {
     return <div>
