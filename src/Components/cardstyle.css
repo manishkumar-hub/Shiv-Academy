@@ -1,5 +1,6 @@
 .card
 {
+    /* position: relative; */
     margin: 1%;
     border: solid orangered;
     background-color: rgba(228, 224, 224, 0.63);
@@ -21,6 +22,7 @@
 }
 #img
 {
+    position: relative;
     border-collapse: separate; 
     border-radius: 130px;
     /* border-bottom-right-radius: 40px; */

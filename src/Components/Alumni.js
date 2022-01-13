@@ -27,14 +27,10 @@ class Alumni extends React.Component {
 
                     <Alumnicard name={'Ashwini Singh'} description={<>B-tech in CE<br/> NIT Meghalaya </>} yos={'2008-17'} linkedinurl={'a'} instaurl={"d"} mailurl={'d'} ImageFileName={ashwini} />
                     </div>
-                    {/* <div className="col">
-                        
-                 
-                    </div>
+                  <div className="col">
+                    </div>  
                     <div className="col">
-                 
-                    </div> */}
-                  
+                    </div>
                 </div>
             </div>
             {/* <table>
