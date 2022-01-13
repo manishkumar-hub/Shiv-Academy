@@ -22,7 +22,7 @@ class Alumnicard extends React.Component {
                                     <h6>{description}</h6>
                                     <h6>Year of Schooling : {yos} </h6>
                                 </p>
-                                <p class="card-text"><small class="text-muted">Social handles: </small></p>
+                                {/* <p class="card-text"><small class="text-muted">Social handles: </small></p> */}
                                 <a href={linkedinurl}>
                                 <img className='logo' src={linkedin} alt="" />
                                 </a>

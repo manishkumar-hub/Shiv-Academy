@@ -64,7 +64,7 @@ class Navbar extends React.Component {
                                                 {/* <a className="nav-link disabled"><h5 className='navbutn'>Alumni </h5></a> */}
                                             </li>
                                             <li className="nav-item">
-                                            <Link className="nav-link active" aria-current="page" to="/alumn"><h5 className='navbutn'>Gallery</h5></Link>
+                                            <Link className="nav-link active" aria-current="page" to="/gallery"><h5 className='navbutn'>Gallery</h5></Link>
                                                 {/* <a className="nav-link disabled"><h5 className='navbutn'>Gallery </h5></a> */}
                                             </li>
                                         </ul>

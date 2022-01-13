@@ -1,9 +1,12 @@
 .card
 {
-    margin: 20px;
+    margin: 1%;
     border: solid orangered;
-    background-color: rgb(183, 255, 227);
-
+    background-color: rgba(228, 224, 224, 0.63);
+    /* align-items: center; */
+    /* align-content: center; */
+    /* justify-content: center; */
+    /* padding: 1%; */
     /* height: 250px; */
 }
 #alumhead
@@ -12,7 +15,7 @@
 }
 .logo
 {
-    margin: 2px;
+    margin: 10%;
     size: 10%;
     width: 25px;
 }
@@ -23,7 +26,9 @@
     /* border-bottom-right-radius: 40px; */
     border: solid orange ;
     /* border-radius: ; */
-    margin: 10px;
+    /* margin: 10px; */
+    margin: 4%;
+    margin-left: 9%;
     width: 80%;
     height: 200px;
 }
@@ -38,8 +43,8 @@
 #cardtext
 {
     align-items: center;
-    text-align: left;
-    margin-left: 20px;
+    text-align: center;
+    margin-left: 15%;
     width: 230px;
     /* border: solid black; */
 }

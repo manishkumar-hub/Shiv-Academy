@@ -13,6 +13,7 @@ import {
   Route
 } from "react-router-dom";
 import Events from './Components/Events';
+import Gallery from './Components/Gallery';
 class App extends React.Component {
   render() {
     return <div>
@@ -30,6 +31,9 @@ class App extends React.Component {
           </Route>
           <Route exact path="/alumn">
              <Alumni/>
+          </Route>
+          <Route exact path="/gallery">
+             <Gallery/>
           </Route>
           <Route exact path="/aim">
              <Aim/>
