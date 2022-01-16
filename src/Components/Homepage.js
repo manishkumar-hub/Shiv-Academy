@@ -14,7 +14,7 @@ class Homepage extends React.Component {
             <div className='aimbox'>
                 <h1 className='topic-header heading' >VISION & MISSION </h1>
                 <p className='vis-para' >
-                The main Vision and Mission of the Association is to “Giving Back” to Alma Mater. Our aim is to bring all alumnus into one single network and help them connect with one another and with the Institute to join hands with it to foster and enhance its’ academic pursuit of  knowledge.
+                The main Vision and Mission of the Association is to “Giving Back” to Alma Mater. Our aim is to bring all alumnus into one single network and help them connect with one another and with the Institute to join hands with it to foster and enhance it's academic pursuit of  knowledge.
                     </p> 
                     <p className="vis-para">
                     Association aims to link all school alumnus together to develop synergistic plans to help and support all  students, alumni and society as a whole to achieve its vision, and to enable our alumnus add value to the society

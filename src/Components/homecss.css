@@ -8,7 +8,9 @@
 .vis-para
 {
     font-size: large;
-    margin: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
 }
 .colmn
 {
@@ -19,7 +21,7 @@
 {
     size: 20%;
     border: solid orangered;
-    margin: 20px;
+    margin: 1%;
     margin-top: 0px;
     height: 150px;
     /* height: 32vw; */
@@ -33,7 +35,7 @@
 {
     size: 20%;
     border: solid orangered;
-    margin: 20px;
+    margin: 1%;
     margin-top: 0px;
     height: 150px;
     /* height: 32vw; */

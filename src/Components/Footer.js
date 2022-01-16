@@ -11,9 +11,11 @@ class Footer extends React.Component {
                     <tr>
                         <td>
 
-                <h3 className='text uptext' id='schoolname'>Shiv Academy</h3>
-                <h5 className='text uptext' id='schooladd'>Ramkola Taraiya, Saran- 841424
+                <h3 className='text uptext' id='schoolname'>Shiv Academy
+                <h5 className='' id='schooladd'>Ramkola Taraiya, Saran- 841424
                 <br/>
+                <br/>
+                Follow Us <br/>
                 <a href="mailto:shiv@gmail.com">
                 <img className='handleLogo' src={GmailLogo} alt="" />
                 </a>
@@ -21,9 +23,11 @@ class Footer extends React.Component {
                 <img className='handleLogo' src={InstaLogo} alt="" />
                 </a>
                 </h5>
+                </h3>
                         </td>
                         <td>
-                <h6 className='text' >
+                <h6 className='text ' >
+                 <h4 className='linktext'>Site Links</h4>
                 <Link to="/"><h5 className='linktext' >Home</h5></Link>
                 <Link to="/aim"><h5 className='linktext'>Aim & Objectives</h5></Link>
                 </h6>
