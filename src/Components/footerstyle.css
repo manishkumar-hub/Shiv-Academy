@@ -2,9 +2,10 @@
 {
     text-align: left;
     align-items: left;
-    background-color: gray;
+    background-color: rgb(163, 161, 161);
     margin-bottom: -0.5vw;
-    color: blue;
+    /* color: blue; */
+    text-decoration: none;
 }
 .footerBottom
 {
@@ -14,10 +15,12 @@
     background-color: rgb(61, 61, 243);
     /* text-align: left; */
     margin-bottom: -1vw;
+    margin-top: -1.5vw;
 }
 .linktext
 {
      color: white;
+     text-decoration: none;
      /* margin-top: 20px; */
      /* margin-left: 2px; */
      /* margin-right: 25px; */
@@ -32,6 +35,12 @@
 {
     color: white;
     text-decoration: wavy;
+}
+.handleLogo{
+    margin-top: 0.5%;
+    margin-right: 1%;
+    height: 5vh;
+    border-radius: 20px;
 }
 .text
 {

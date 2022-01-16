@@ -1,8 +1,11 @@
-import React, { Component } from 'react'
+import React, { Component, useEffect } from 'react'
 import Carousel from './Carousel';
 import Events from './Events';
 import './homecss.css'
 import secretary from './secretary.jpeg' 
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+import RaushanSwaraj from './AlumniImages/RaushanSwaraj.jpeg'
 class Homepage extends React.Component {
     render() {
         return <div>
@@ -17,7 +20,7 @@ class Homepage extends React.Component {
                     Association aims to link all school alumnus together to develop synergistic plans to help and support all  students, alumni and society as a whole to achieve its vision, and to enable our alumnus add value to the society
                     </p>
                 <h1 className='topic-header heading'>ABOUT THE ASSOCIATION </h1>
-                <div className="president">
+                <div className="president ">
                     <h2 className='sub-header' >PRESIDENT </h2>
                     <img id='presidentImage' src={secretary} alt="" />
                     <p id="ptext" >
@@ -28,7 +31,7 @@ class Homepage extends React.Component {
                         <br/>
                     </p>
                 </div>
-                <div className="vice-president">
+                <div className="vice-president animate fadeInRight two ">
                     <h2 className='sub-header'>VICE-PRESIDENT</h2>
                     <img id='vice-presidentImage' src={secretary} alt="" />
                     <p id="vptext" >
@@ -39,7 +42,7 @@ class Homepage extends React.Component {
                         <br/>
                     </p>
                 </div>
-                <div className="secretary">
+                <div className="secretary animate fadeInLeft three">
                     <h2 className='sub-header'> SECRETARY </h2>
                     <img id='secretary-Image' src={secretary} alt="" />
                     <p id="vptext" >
@@ -50,7 +53,18 @@ class Homepage extends React.Component {
                         <br/>
                     </p>
                 </div>
-                <div className="secretary">
+                <div className="secretary animate fadeInLeft three">
+                    <h2 className='sub-header'> VICE-SECRETARY </h2>
+                    <img id='secretary-Image' src={RaushanSwaraj} alt="" />
+                    <p id="vptext" >
+                        <br/>
+                        <h4 className='post-text'>RAUSHAN SWARAJ</h4>
+                        <br/>
+                        <br/>
+                        <br/>
+                    </p>
+                </div>
+                <div className="secretary animate fadeInRight four">
                     <h2 className='sub-header'> TREASURER </h2>
                     <img id='secretary-Image' src={secretary} alt="" />
                     <p id="vptext" >
@@ -62,6 +76,13 @@ class Homepage extends React.Component {
                     </p>
                 </div>
             </div>
+            {
+                // $(function () {
+                //     $(window).trigger("scroll");
+                //     var positiontop= $(document).scrollTop();
+                //     console.log(positiontop);
+                // })
+            }
         </div>;
     }
 }

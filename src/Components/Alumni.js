@@ -1,9 +1,11 @@
 import React, { PureComponent } from 'react'
 import Alumnicard from './Alumnicard';
-import manish from './manish.jpg'
-import ashish from './ashishsharma.jpeg'
-import vikashraj from './vikashkumarraj.jpeg'
-import ashwini from './ashwinisingh.jpeg'
+import manish from './AlumniImages/manish.jpg'
+import ashish from './AlumniImages/ashishsharma.jpeg'
+import vikashraj from './AlumniImages/vikashkumarraj.jpeg'
+import ashwini from './AlumniImages/ashwinisingh.jpeg'
+import SujeetSharma from './AlumniImages/SujeetSharma.jpeg'
+import RaushanSwaraj from './AlumniImages/RaushanSwaraj.jpeg'
 class Alumni extends React.Component {
     render() {
         return <div>
@@ -11,25 +13,26 @@ class Alumni extends React.Component {
             <div className="container">
                 <div className="row">
                     <div className="col">
-                    <Alumnicard name={'Manish kumar pandit' } description={<> B-tech in CSE <br/> NIT Sikkim</>} yos={'2009-17'} linkedinurl={"fd"} instaurl={"df"} mailurl={"manishkumarpandit12@gmail.com"} ImageFileName={manish} />
+                        <Alumnicard name={'Vikash Kumar Raj'} description={<> MBBS <br /> AIIMS Kalyani </>} yos={'2008-17'} linkedinurl={'a'} instaurl={"d"} mailurl={'d'} ImageFileName={vikashraj} />
                     </div>
                     <div className="col">
-                        
-                    <Alumnicard name={'Vikash Kumar Raj'} description={<> MBBS <br/> AIIMS Kalyani </>} yos={'2008-17'} linkedinurl={'a'} instaurl={"d"} mailurl={'d'} ImageFileName={vikashraj} />
+                        <Alumnicard name={'Manish kumar pandit'} description={<> B-tech in CSE <br /> NIT Sikkim</>} yos={'2009-17'} linkedinurl={"https://www.linkedin.com/in/manish-kumar-pandit-092107214"} instaurl={"df"} mailurl={"manishkumarpandit12@gmail.com"} ImageFileName={manish} />
+
                     </div>
                     <div className="col">
-                    <Alumnicard name={'Ashish Sharma'} description={<>B-tech in ECE <br/> MNIT Allahabad  </>} yos={'2008-17'} linkedinurl={'a'} instaurl={"d"} mailurl={'d'} ImageFileName={ashish} />
+                        <Alumnicard name={'Ashish Sharma'} description={<>B-tech in ECE <br /> MNNIT Allahabad  </>} yos={'2008-17'} linkedinurl={'a'} instaurl={"d"} mailurl={'d'} ImageFileName={ashish} />
                     </div>
-                  
+
                 </div>
                 <div className="row">
                     <div className="col">
-
-                    <Alumnicard name={'Ashwini Singh'} description={<>B-tech in CE<br/> NIT Meghalaya </>} yos={'2008-17'} linkedinurl={'a'} instaurl={"d"} mailurl={'d'} ImageFileName={ashwini} />
+                        <Alumnicard name={'Ashwini Singh'} description={<>B-tech in CE<br /> NIT Meghalaya </>} yos={'2006-17'} linkedinurl={'a'} instaurl={"d"} mailurl={'d'} ImageFileName={ashwini} />
                     </div>
-                  <div className="col">
-                    </div>  
                     <div className="col">
+                        <Alumnicard name={'Sujeet Kumar Sharma'} description={<>B-tech in CSE<br /> Lovely Proffesional University </>} yos={'2006-17'} linkedinurl={'https://www.linkedin.com/in/sujeet-kumar-sharma-1494231b7'} instaurl={"d"} mailurl={'sks9097692531@gmail.com'} ImageFileName={SujeetSharma} />
+                    </div>
+                    <div className="col">
+                    <Alumnicard name={'Raushan Swaraj'} description={<>Delhi University </>} yos={'2006-17'} linkedinurl={''} instaurl={""} mailurl={''} ImageFileName={RaushanSwaraj} />
                     </div>
                 </div>
             </div>

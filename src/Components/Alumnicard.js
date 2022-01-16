@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import manish from './manish.jpg'
-import vikashraj from './vikashkumarraj.jpeg'
 import './cardstyle.css'
 import insta from './insta.jpg'
 import linkedin from './linkedin.png'
