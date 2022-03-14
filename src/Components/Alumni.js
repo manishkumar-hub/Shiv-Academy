@@ -22,7 +22,7 @@ const Alumni = () => {
             <div className="container">
                 <div className="row" >
                 <div className="col-md-4" data-aos="fade-right" >
-                        <Alumnicard name={'Robin Kumar Gupta'} description={<>B-tech in CSE <br /> LPU  </>} yos={'2006-15'} linkedinurl={'https://www.linkedin.com/in/erobincse/'} instaurl={"d"} mailurl={'d'} ImageFileName={RobinKumarGupta} />
+                        <Alumnicard name={'Robin Kumar Gupta'} description={<> SDE @Knimbus <br /> B-tech in CSE, LPU </>} yos={'2006-15'} linkedinurl={''} instaurl={"d"} mailurl={'d'} ImageFileName={RobinKumarGupta} />
                     </div>
                     <div className="col-md-4" data-aos="fade-right" >
                         <Alumnicard name={'Vikash Kumar Raj'} description={<> MBBS <br /> AIIMS Kalyani </>} yos={'2008-17'} linkedinurl={'a'} instaurl={"d"} mailurl={'d'} ImageFileName={vikashraj} />
