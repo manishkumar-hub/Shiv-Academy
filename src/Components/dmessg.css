@@ -10,8 +10,14 @@
 #dmsg{
     margin-left: 6%;
     margin-right: 6%;
-    margin-bottom: 10%;
+    margin-bottom: 6%;
     text-align: justify;
+}
+.D-name
+{
+    text-align: left;
+    margin-left: 6%;
+    margin-right: 6%;
 }
 #dheader
 {

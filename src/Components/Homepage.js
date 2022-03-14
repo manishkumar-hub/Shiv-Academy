@@ -6,6 +6,9 @@ import secretary from './secretary.jpeg'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import RaushanSwaraj from './AlumniImages/RaushanSwaraj.jpeg'
+import Riteshkumarsingh from './AlumniImages/RiteshKumarSingh.jpeg'
+import RobinKumarGupta from './AlumniImages/RobinKumarGupta.jpg'
+
 // class Homepage extends React.Component {
 // render() {
 const Homepage = () => {
@@ -27,10 +30,10 @@ const Homepage = () => {
                 <h1 className='topic-header heading'>ABOUT THE ASSOCIATION </h1>
                 <div className="president" data-aos="fade-right">
                     <h2 className='sub-header' >PRESIDENT </h2>
-                    <img id='presidentImage' src={secretary} alt="" />
+                    <img id='presidentImage' src={RobinKumarGupta} alt="" />
                     <p id="ptext" >
                         <br />
-                        <h4 className='post-text'>ROBIN  </h4>
+                        <h4 className='post-text'>Robin Kumar Gupta <br /> <br /> <h6> SDE @ Knumbus </h6> </h4>
                         <br />
                         <br />
                         <br />
@@ -38,10 +41,13 @@ const Homepage = () => {
                 </div>
                 <div className="vice-president" data-aos ="fade-left">
                     <h2 className='sub-header'>VICE-PRESIDENT</h2>
-                    <img id='vice-presidentImage' src={secretary} alt="" />
+                    <img id='vice-presidentImage' src={Riteshkumarsingh} alt="" />
                     <p id="vptext" >
                         <br />
-                        <h4 className='post-text'>UTKARSH </h4>
+                        <h4 className='post-text'>Ritesh Kumar Singh <br />
+                        <br />
+                        <h6>AIIMS Patna</h6>
+                        </h4>
                         <br />
                         <br />
                         <br />
@@ -52,7 +58,7 @@ const Homepage = () => {
                     <img id='secretary-Image' src={secretary} alt="" />
                     <p id="vptext" >
                         <br />
-                        <h4 className='post-text'>UTKARSH </h4>
+                        <h4 className='post-text'> Utkarsh singh </h4>
                         <br />
                         <br />
                         <br />
@@ -63,13 +69,13 @@ const Homepage = () => {
                     <img id='secretary-Image' src={RaushanSwaraj} alt="" />
                     <p id="vptext" >
                         <br />
-                        <h4 className='post-text'>RAUSHAN SWARAJ</h4>
+                        <h4 className='post-text'>Raushan Swaraj</h4>
                         <br />
                         <br />
                         <br />
                     </p>
                 </div>
-                <div className="secretary " data-aos ="fade-right">
+                {/* <div className="secretary " data-aos ="fade-right">
                     <h2 className='sub-header'> TREASURER </h2>
                     <img id='secretary-Image' src={secretary} alt="" />
                     <p id="vptext" >
@@ -79,7 +85,7 @@ const Homepage = () => {
                         <br />
                         <br />
                     </p>
-                </div>
+                </div> */}
             </div>
         </div>
     );

@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react'
-import logo from './IMG20211219131717.jpg'
-import lamp from './lamp.jpeg'
+import logo from './Car2.jpg'
+import lamp from './lamp1.jpg'
 import prpogram from './program.jpeg'
 import './carouselstyle.css'
 class Carousel extends React.Component {
@@ -14,14 +14,14 @@ class Carousel extends React.Component {
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src={logo} class="d-block w-100" alt="..." />
+            <img src={logo} class="d-block w-100 h-60" alt="..." />
             <div class="carousel-caption d-none d-md-block">
               <h1 className="text" >Welcome to Shiv Academy </h1>
               <p className="text" > <b>Alumni Portal</b></p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src={lamp} class="d-block w-100" alt="..." />
+            <img src={lamp} class="d-block w-100 h-40" alt="..." />
             <div class="carousel-caption d-none d-md-block">
               <h1 className="text"></h1>
               <p className="text" ></p>
