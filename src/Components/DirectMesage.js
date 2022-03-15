@@ -21,7 +21,7 @@ focus on student welfare that concentrates on the positive recognition of each c
 <br />
 </p>
 <p className='D-name'>
-  <h3>Mr. Rajessh Kumar Singh</h3>
+  <h3>Mr. Rajesh Kumar Singh</h3>
   <h4>Founder Director</h4>
   <h4>Shiv Academy </h4>
   <h5>Ramkola , Taraiya , Saran</h5>

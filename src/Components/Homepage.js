@@ -28,18 +28,16 @@ const Homepage = () => {
                     Association aims to link all school alumnus together to develop synergistic plans to help and support all  students, alumni and society as a whole to achieve its vision, and to enable our alumnus add value to the society
                 </p>
                 <h1 className='topic-header heading'>ABOUT THE ASSOCIATION </h1>
-                <div className="president" data-aos="fade-right">
+                <div className="about-card" data-aos="fade-right">
                     <h2 className='sub-header' >PRESIDENT </h2>
                     <img id='presidentImage' src={RobinKumarGupta} alt="" />
                     <p id="ptext" >
                         <br />
-                        <h4 className='post-text'>Robin Kumar Gupta <br /> <br /> <h6> SDE @ Knumbus </h6> </h4>
-                        <br />
-                        <br />
-                        <br />
+                        <h4 className='post-text'>  Robin Kumar Gupta <br /> <br /> <h6> SDE @ Knumbus </h6> </h4>
+                        {/* <br /> */}
                     </p>
                 </div>
-                <div className="vice-president" data-aos ="fade-left">
+                <div className="about-card" data-aos ="fade-left">
                     <h2 className='sub-header'>VICE-PRESIDENT</h2>
                     <img id='vice-presidentImage' src={Riteshkumarsingh} alt="" />
                     <p id="vptext" >
@@ -48,12 +46,9 @@ const Homepage = () => {
                         <br />
                         <h6>AIIMS Patna</h6>
                         </h4>
-                        <br />
-                        <br />
-                        <br />
                     </p>
                 </div>
-                <div className="secretary " data-aos ="fade-right">
+                <div className="about-card" data-aos ="fade-right">
                     <h2 className='sub-header'> SECRETARY </h2>
                     <img id='secretary-Image' src={secretary} alt="" />
                     <p id="vptext" >
@@ -61,10 +56,10 @@ const Homepage = () => {
                         <h4 className='post-text'> Utkarsh singh </h4>
                         <br />
                         <br />
-                        <br />
+                   
                     </p>
                 </div>
-                <div className="secretary " data-aos ="fade-left">
+                <div className="about-card" data-aos ="fade-left">
                     <h2 className='sub-header'> VICE-SECRETARY </h2>
                     <img id='secretary-Image' src={RaushanSwaraj} alt="" />
                     <p id="vptext" >
@@ -72,7 +67,7 @@ const Homepage = () => {
                         <h4 className='post-text'>Raushan Swaraj</h4>
                         <br />
                         <br />
-                        <br />
+                
                     </p>
                 </div>
                 {/* <div className="secretary " data-aos ="fade-right">

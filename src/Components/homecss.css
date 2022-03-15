@@ -23,6 +23,7 @@
 }
 #presidentImage
 {
+  position: relative;
     size: 20%;
     border: solid orangered;
     margin: 1%;
@@ -108,39 +109,21 @@
     font-family: 'Playfair Display', serif;
     margin-left: 35%;
 }
-.president
+.about-card
 {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 10px;
     margin-bottom: 10px;
     border-style: ridge;
-    border-width: 5px;
     border-radius: 50px;
     align-items: left;
 }
-.vice-president
+.about-card:hover ,.about-card:active
 {
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-style: ridge;
-    border-width: 5px;
-    border-radius: 50px;
-    align-items: left;
+  box-shadow: grey 3px 3px 3px 3px;
 }
-.secretary
-{
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-style: ridge;
-    border-width: 5px;
-    border-radius: 50px;
-    align-items: left;
-}
+
 /*=== Basic box styling  ===*/
 .box {
     background: #2ecc71 none repeat scroll 0 0;
